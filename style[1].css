@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+h1 { margin: 20px 0; }
+#malla { display: flex; flex-wrap: wrap; justify-content: center; }
+.curso {
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 2px solid #333;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.curso:hover { transform: scale(1.05); }
+.aprobado { text-decoration: line-through; background: #d4edda; }
+.bloqueado { opacity: 0.5; cursor: not-allowed; }
